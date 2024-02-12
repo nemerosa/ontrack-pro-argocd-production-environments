@@ -1,0 +1,19 @@
+name: bootstrap
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  ONTRACK_URL: "${{ vars.ONTRACK_URL }}"
+  ONTRACK_TOKEN: "${{ secrets.ONTRACK_TOKEN }}"
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: auto-versioning-check
+        uses: nemerosa/ontrack-github-ingestion-auto-versioning-check@v1.0.1
+        with:
+          logging: true

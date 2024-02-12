@@ -1,0 +1,10 @@
+configurations:
+
+    # Auto deployment of Ontrack upon a PRODUCTION promotion
+  - project: ontrack
+    branch: '&most-recent:release\/4\..*'
+    promotion: PRODUCTION
+    path: environments/ontrack/config.yaml
+    property-type: yaml
+    property: "#root[0].version"
+    auto-approval-mode: CLIENT
