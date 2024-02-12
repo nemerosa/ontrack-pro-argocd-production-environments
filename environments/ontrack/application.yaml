@@ -1,0 +1,5 @@
+ontrack:
+  config:
+    extension:
+      notifications:
+        enabled: true
