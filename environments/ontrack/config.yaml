@@ -1,11 +1,11 @@
 ---
 chartVersion: "0.11.1"
-version: "4.8.15"
+version: "4.8.17"
 license:
   name: "Premium"
   assignee: "Nemerosa BV"
   active: true
-  validUntil:
+  validUntil: null
   maxProjects: 0
 domain: "nemerosa.net"
 application: |
@@ -14,3 +14,4 @@ application: |
       extension:
         notifications:
           enabled: true
+
