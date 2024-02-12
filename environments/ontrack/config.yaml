@@ -8,3 +8,9 @@ license:
   validUntil:
   maxProjects: 0
 domain: "nemerosa.net"
+application: |
+  ontrack:
+    config:
+      extension:
+        notifications:
+          enabled: true
