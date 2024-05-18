@@ -8,3 +8,5 @@ configurations:
     property-type: yaml
     property: "#root[0].version"
     auto-approval-mode: CLIENT
+    validation-stamp: auto
+    qualifier: ontrack
